@@ -1,0 +1,10 @@
+<nav class="navbar navbar-inverse">
+  <p class="navbar-text navbar-right">
+    <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+  </button>
+  </p>
+  <ul class="nav nav-pills">
+    <li *ngFor="let category of categories" role="presentation"><a href="#">{{category}}</a></li>
+  </ul>
+</nav>
